@@ -29,3 +29,12 @@ variable "aws_ip_cidr_range" {
   type        = "string"
   description = "IP CIDR range for AWS VPC"
 }
+
+// Output variable
+/* this is a comment
+with many lines
+bye bye */
+
+output "first_output" {
+  value = "this is the value through execution"
+}
