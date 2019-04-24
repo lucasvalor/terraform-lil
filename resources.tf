@@ -38,3 +38,9 @@ resource "aws_security_group" "subnetsecurity" {
     protocol  = "tcp"
   }
 }
+
+resource "aws_instance" {
+  ami           = "ami-i1234"
+  instance_type = "t2.micro"
+  region        = "us-east-1"
+}
